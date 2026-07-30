@@ -10,7 +10,9 @@ namespace StudentOperations
     {
         public void Addition()
         {
-            Console.WriteLine("Calling Addition");
+            int x = 90, y = 50, c;
+            c = x + y;
+            Console.WriteLine($"Addition={c}");
         }
         static void Main(string[] args)
         {

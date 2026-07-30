@@ -8,6 +8,10 @@ namespace StudentOperations
 {
     internal class Program
     {
+        public void Addition()
+        {
+            Console.WriteLine("Calling Addition");
+        }
         static void Main(string[] args)
         {
         }
